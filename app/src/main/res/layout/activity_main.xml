@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activirty.MainActivity"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/file_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.2">
+    <Button
+       android:id="@+id/pdf_btu"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="OB365打开pdf"
+        android:textColor="#6A5ACD">
+    </Button>
+    <Button
+        android:id="@+id/ppt_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OB365打开ppt"
+        android:textColor="#6A5ACD">
+
+    </Button>
+    <Button
+        android:id="@+id/word_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OB365打开word"
+        android:textColor="#6A5ACD">
+
+    </Button>
+    <Button
+        android:id="@+id/excel_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OB365打开excel"
+        android:textColor="#6A5ACD">
+    </Button>
+
+    <Button
+        android:id="@+id/tbs_pdf_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TBS打开pdf"
+        android:textColor="#DC143C">
+    </Button>
+    <Button
+        android:id="@+id/tbs_ppt_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TBS打开ppt"
+        android:textColor="#DC143C">
+
+    </Button>
+    <Button
+        android:id="@+id/tbs_word_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TBS打开word"
+        android:textColor="#DC143C">
+
+    </Button>
+    <Button
+        android:id="@+id/tbs_excel_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TBS打开excel"
+        android:textColor="#DC143C">
+
+    </Button>
+    <Button
+        android:id="@+id/mupdf_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PDFview打开pdf">
+    </Button>
+    </LinearLayout>
+</LinearLayout>
